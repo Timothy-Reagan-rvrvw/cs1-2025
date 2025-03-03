@@ -3,11 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MONKEYS ARE BANNANS</title>
+    <title>Hollow Knight</title>
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-<h1>In wilds beyond they speak your name with reverence and regret, for none could tame our savage souls yet you the challenge met.</h1>
+<h1 id="title" class="title">In wilds beyond they speak your name with reverence and regret, for none could tame our savage souls yet you the challenge met.</h1>
+<h1 class="title">cheese</h1>
+<input type="text" name="name" placeholder="enter your name"></input>
+<br>
+<textarea placeholder="enter your message" name="message"></textarea>
+<br>
+<button type="submit" onclick="submit()">send</button>
+<script>function submit() {
+    console.log("hbfkhvdhvhdblhbvkhdbKJHS:FHvhjhbidHljhvdLFJhlhjbf");
+    var name = document.getElementsByName("name").item(0).value;
+    var message = document.getElementsByName("message").item(0).value;
+    console.log(message);
+    alert("hello " + name + " your message is " + message);
+    console.log(name);
+}</script>
 
 </body>
 </html>
