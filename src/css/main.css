@@ -2,10 +2,15 @@ html, body {
     height: 100%;
 }
 body {
-    background: linear-gradient(to bottom , gold , black );
+    background: linear-gradient(to bottom , red , green );
     height: 100%;
     width: 100%;
 }
-.title {background-color:chocolate;}
-#title {color:blue}
-h1 {color:brown}
+a, a:visited, a:active {
+    padding: 0px 3px;
+    color: mintcream;
+}
+a:hover {
+    background: red;
+    color: darkgreen;
+}
